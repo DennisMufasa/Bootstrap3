@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Collapse</title>
+
+    <meta name="viewPort" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Simple Collapsible</h2>
+  <p>Click on the button to toggle between showing and hiding content.</p>
+
+
+    <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Collapse</button>
+
+    <div id="demo" class="collapse">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad assumenda autem blanditiis cum, deserunt eos ex
+            expedita, itaque nobis, odit provident quibusdam recusandae rerum sapiente sed sit unde. Nihil, rem!</p>
+    </div>
+
+    <h1>Opened Collapse by default</h1>
+    <p>The web page will load with an already opened collapse tag.</p>
+
+    <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#mfs">Mufasa</button>
+    <div id="mfs" class="collapse in">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eos est facilis fugiat illo laudantium
+            natus porro quisquam ratione repellat? Alias debitis distinctio dolor eos eum fuga quod temporibus
+            totam?</p>
+    </div>
+
+
+    <h1>Using a link instead of a button</h1>
+    <a href="#denny" data-toggle="collapse" class="btn btn-info ">Dennis</a>
+    <div id="denny" class="collapse">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, ad corporis culpa eaque earum ex ipsum
+            minima necessitatibus nesciunt odio placeat, quaerat quibusdam quo rem, sit. Facere nam quod
+            voluptatibus.</p>
+    </div>
+    <br><br>
+    <h1>Making a pre scrollable</h1>
+
+    <pre class="pre-scrollable">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium autem blanditiis
+        dolorumfacilis libero mollitianatus similique tempora! Alias consectetur corporis delectus
+        ducimus id. Dolor fuga laboriosam maiores optio quis.Lorem ipsum dolor sit amet, consectetu
+        r adipisicing elit. Commodi dicta excepturi exercitationem facilis harum nulla
+        obcaecati officiis optio quae veritatis. Dicta dolore ducimus, eaque molestias odit sapiente
+        soluta ullam voluptatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aliquid architecto beatae
+        commodi consectetur debitisducimus eius eum, excepturi illum, in maiores odit officia optio pariatur placeat quae veli
+        t voluptatibus.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto aut autem cum eius fug
+        iat fugit illum inciduntmollitia nisi nulla odio officiis quasi quibusdam sequi sunt, ullam ut voluptate. Quos.
+    </pre>
+    <br><br>
+<h1>Using collapse in a panel</h1>
+    <div class="panel-group">
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#kadzium" data-toggle="collapse">Mufasa Panel</a>
+                </h4>
+            </div>
+            <div class="collapse panel-body" id="kadzium">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem id natus, nulla perspiciatis
+                    possimus rem rerum sed. Culpa, necessitatibus, tenetur. Ad architecto dignissimos dolorum enim
+                    impedit ipsa nam nemo odio.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#ely" data-toggle="collapse">Dennis</a>
+                </h4>
+            </div>
+            <div id="ely" class="collapse panel-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab autem cupiditate deleniti esse
+                    laboriosam libero magni neque reprehenderit tempora tenetur? Blanditiis dicta doloremque illum iure
+                    molestias non optio saepe vel.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#default" data-toggle="collapse">Kadzium</a>
+                </h4>
+            </div>
+            <div id="default" class="collapse panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item">One</li>
+                    <li class="list-group-item">Two</li>
+                    <li class="list-group-item">Three</li>
+                    <li class="list-group-item">Four</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+
+<h1>Accordian</h1>
+    <br>
+    <div class="panel-group" id="accordion">
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#collapse1" data-parent="#accordion" data-toggle="collapse">Ras</a>
+                </h4>
+            </div>
+            <div  id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, ab accusamus
+                    adipisci aperiam blanditiis doloribus dolorum ea earum, id ipsam ipsum non praesentium sunt! Eius in
+                    iure labore porro ratione.</p>
+                </div>
+            </div>
+        </div>
+
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapse2" data-toggle="collapse" data-parent="#accordion">Mufasa</a>
+                    </h4>
+                </div>
+            <div id="collapse2" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias atque, consequatur dolore dolorem
+                        ea eligendi et exercitationem, odio pariatur repudiandae sit ullam vero? Delectus doloribus
+                        mollitia possimus quo tempora ut.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#collapse3" data-parent="#accordion" data-toggle="collapse">Dennis</a>
+                    </h4>
+                </div>
+                <div class="panle-collapse collapse" id="collapse3">
+                    <div class="panel-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores esse maiores mollitia odio
+                            repellendus suscipit vero! Ab aspernatur consequatur, ducimus facilis id quaerat, quis
+                            sapiente sed, sequi veritatis voluptas voluptates!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

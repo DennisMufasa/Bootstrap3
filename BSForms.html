@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+
+    <meta name="viewPort" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+</head>
+<body>
+<div class="container">
+
+    <h3>Vertical Forms(Default)</h3>
+
+    <form >
+        <div class="form-group">
+            <label for="emailV">Email:</label>
+            <p id="emailV" class="form-control-static">someone@example.com</p>
+        </div>
+        <div class="form-group">
+            <label for="passwordV">Password:</label>
+            <input type="password" class="form-control" id="passwordV" placeholder="enter your password" name="pwd">
+        </div>
+        <div class="checkbox">
+            <label for="ckeckV"><input type="checkbox" id="ckeckV" name="box">Remeber me</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+    <br>
+
+    <h3>Inline Forms</h3>
+
+    <form class="form-inline" >
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input class="form-control" type="email" id="email" placeholder="enter your email address">
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" class="form-control" id="password" placeholder="enter your password" name="pwd">
+        </div>
+        <div class="checkbox">
+            <label for="ckeck"><input type="checkbox" id="ckeck" name="box">Remeber me</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+    <br>
+
+    <h3>Hidden Labels</h3>
+
+    <form >
+        <div class="form-group">
+            <label class="sr-only" for="emailH">Email:</label>
+            <input class="form-control" type="email" id="emailH" placeholder="enter your email address">
+        </div>
+        <div class="form-group">
+            <label class="sr-only" for="passwordH">Password:</label>
+            <input type="password" class="form-control" id="passwordH" placeholder="enter your password" name="pwd">
+        </div>
+        <div class="checkbox">
+            <label for="ckeckH"><input type="checkbox" id="ckeckH" name="box">Remeber me</label>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+    <h3>Horizontal Forms</h3>
+
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="emailX">Email:</label>
+            <div class="col-sm-10">
+                <p id="emailX" class="form-control-static">someone@example.com</p>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2" for="passwordX">Password:</label>
+           <div class="col-sm-10">
+                <input type="password" class="form-control" id="passwordX" placeholder="enter your password" name="pwd">
+           </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <div class="checkbox">
+                    <label for="ckeckX"><input type="checkbox" id="ckeckX" name="box">Remeber me</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-offset-2 col-sm-10">
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </div>
+    </form>
+
+    <form>
+        <br><br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+            <input id="emails" type="text" class="form-control" name="email" placeholder="enter your username">
+
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+            <input id="pass" type="password" class="form-control" placeholder="enter your password" name="pass">
+
+        </div>
+        <br><br>
+        <div class="input-group">
+            <span class="input-group-addon"><i class="glyphicon glyphicon-info-sign"></i></span>
+            <input id="info" type="text" class="form-control" placeholder="Additional information" name="info">
+        </div>
+
+
+    </form>
+
+
+</div>
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

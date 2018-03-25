@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nav Bar</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <meta name="viewPort" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navabar-header">
+            <a href="#" class="navbar-brand">Website 3.0</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <form class="navbar-form navbar-left">
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Search" name="search">
+                <button class="btn btn-info">Search</button>
+            </div>
+        </form>
+
+    </div>
+</nav>
+<div class="container">
+    <h1>Welcome to My Website.</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi corporis eum, natus perferendis qui unde ut vero.
+        Blanditiis consequatur consequuntur, culpa itaque laborum magnam provident rem saepe suscipit veniam
+        voluptatem.</p>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!--indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!--items-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="images/elemnts.png" alt="elements" style="width: 100%">
+                <div class="carousel-caption">
+                    <h4 class="text-center">Elements</h4>
+                    <p>Elements formed from stars.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="images/mfs.jpg" alt="Mufasa" style="width: 100%">
+                <div class="carousel-caption">
+                    <h4 class="text-center">Mufasa</h4>
+                    <p>Mufasa is a jr. Developer</p>
+                </div>
+            </div>
+            <div class="item">
+                <img src="images/relativity.png" alt="Relativity" style="width: 100%">
+                <div class="carousel-caption">
+                    <h4 class="text-center">Relativity</h4>
+                    <p>Equation that equates energy to matter</p>
+                </div>
+            </div>
+
+            <!--left and right indicators-->
+            <a href="#myCarousel" class="left carousel-control">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only"></span>
+            </a>
+
+            <a href="#myCarousel" class="right carousel-control">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only"></span>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

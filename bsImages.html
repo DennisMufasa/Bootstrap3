@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Images</title>
+<!--Scaling website to the device screen-->
+    <meta name="viewPort" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">mufasa.com</a>
+        </div>
+
+        <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+
+        <form class="navbar-form navbar-right">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="search" name="search">
+                <div class="input-group-btn">
+                    <button class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</nav>
+
+
+
+<div class="container" >
+    <h1 class="text-danger">Rounded Corners</h1>
+    <img src="images/relativity.png" class="img-rounded" width="300" height="300">
+
+    <h1 class="text-danger">Circle Picture</h1>
+    <img src="images/relativity.png" class="img-circle" width="300" height="300">
+
+    <h1 class="text-danger">Thumbnail</h1>
+    <img src="images/relativity.png" class="img-thumbnail" width="300" height="300">
+
+    <h1 class="text-danger">Responsive</h1><small><strong>Responds to different screen sizes</strong></small>
+    <img src="images/relativity.png" class="img-responsive" width="300" height="300">
+
+    <h1 class="text-danger">Responsive Embeded</h1>
+
+  <p>Create a responsive video and scale it nicely to the parent element with a 16:9 aspect ratio</p>
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="raw/videoplayback.mp4"></iframe>
+  </div>
+    
+    <h1 class="text-danger">Image Gallery</h1>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="images/relativity.png">
+                <img src="images/relativity.png" style="width: 100%">
+                    <div class="caption">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit magni omnis porro quibusdam recusandae soluta totam voluptate. Beatae distinctio exercitationem, explicabo fuga ipsa minus obcaecati quidem recusandae repellendus sunt voluptates?</p>
+            </div>
+            </a>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <a href="images/elemnts.png">
+                    <img src="images/elemnts.png" style="width: 100%">
+                    <div class="caption"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid beatae cupiditate
+                enim eum incidunt iure nobis quasi repudiandae ullam voluptatum. Alias aspernatur consequuntur cumque
+                excepturi iste quis rem suscipit. Quas.</p></div>
+                </a>
+            </div>
+
+        </div>
+        <div class="col-sm-4">
+
+            <div class="thumbnail">
+                <a href="images/boro.png">
+                    <img src="images/boro.png" style="width: 100%">
+
+                    <div class="caption"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium deleniti
+                doloremque facilis inventore mollitia quae sint velit, vero. Animi architecto assumenda deleniti dolor
+                dolorum libero pariatur qui saepe sit voluptate.</p></div>
+
+                </a>
+            </div>
+
+    </div>
+    </div>
+
+    <h1 class="text-info">Well</h1>
+    <p>Well displays text in a grey box with some padding</p>
+    <div class="well"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aut, consequuntur, deleniti
+        dolores dolorum ex facere fugit nam non nulla officia perferendis, quam ratione repudiandae rerum. Doloribus rem
+        repellendus ut!</p></div>
+    <h1 class="text-info">Alerts</h1>
+    <div class="alert alert-danger"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolores dolorum
+        eligendi eum harum ipsam modi optio possimus tenetur voluptatibus! Accusantium adipisci amet autem corporis
+        doloribus est quae quidem sit!</p></div>
+    <div class="alert alert-success"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque eius
+        excepturi fugit maiores pariatur quos voluptate. Alias animi eligendi magnam non nostrum perspiciatis! Autem
+        esse facilis natus necessitatibus saepe voluptate.</p></div>
+    <div class="alert alert-warning">http://www.google.com</div>
+
+    <button class="btn">Basic</button>
+    <button class="btn btn-default">Default</button>
+    <button class="btn bg-warning">warning</button>
+    <button class="btn btn-primary">primary</button>
+    <button class="btn btn-success">success</button>
+    <button class="btn btn-link">link</button>
+    <br><br>
+    <button class="btn btn-info btn-block">Block Button</button>
+    <button class="btn btn-primary btn-lg">large button</button>
+    <br><br>
+    <button class="btn btn-primary active">Active</button>
+    <button class="btn btn-primary disabled">Disable</button>
+</div>
+
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>

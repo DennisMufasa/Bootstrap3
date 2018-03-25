@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>inputs</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <meta name="viewPort" content="width=device-width">
+
+</head>
+<body>
+<nav class="navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">mufasa.com</a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <form class="navbar-form navbar-right">
+            <div class="input-group">
+                <input type="search" placeholder="search" class="form-control" id="searcH">
+                <div class="input-group-btn">
+                    <button type="submit" class="btn btn-danger">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </div>
+            </div>
+        </form>
+
+    </div>
+</nav>
+
+<div class="container">
+    <h3>Bootstrap Textarea</h3>
+    <br><br>
+    <form >
+        <div class="form-group">
+            <label for="comment">Leave us a comment:</label>
+            <textarea name="comment" id="comment"  rows="10" class="form-control"></textarea>
+        </div>
+    </form>
+    <br><br>
+    <h3>Checkboxes</h3>
+    <p>The last option is disabled</p>
+    <form >
+        <div class="checkbox">
+            <label for="checkbox"><input type="checkbox" id="checkbox">Option 1</label>
+        </div>
+        <div class="checkbox">
+            <label for="ceck2"><input type="checkbox" id="ceck2">Option 2</label>
+        </div>
+        <div class="checkbox">
+            <label for="check3"><input type="checkbox" id="check3" disabled>Option 3</label>
+        </div>
+    </form>
+    <h3>In-line checkboxes</h3>
+    <form >
+        <div class="checkbox-inline">
+            <label for="checkbox1"><input type="checkbox" id="checkbox1">Option 1</label>
+        </div>
+        <div class="checkbox-inline">
+            <label for="checkbox2"><input type="checkbox" id="checkbox2">Option 2</label>
+        </div>
+        <div class="checkbox-inline">
+            <label for="checkbox3"><input type="checkbox" id="checkbox3" disabled>Option 3</label>
+        </div>
+    </form>
+    <br> <br>
+    <h3>Radio Buttons</h3>
+    <p>They limit the user to only one option. The last is disabled</p>
+    <form >
+        <div class="radio">
+            <label for="radio1"><input type="radio" id="radio1" name="optRadio">Option 1</label>
+        </div>
+        <div class="radio">
+            <label for="radio2"><input type="radio" id="radio2" name="optRadio">Option 2</label>
+        </div>
+        <div class="radio">
+            <label for="radio3"><input type="radio" id="radio3" name="optRadio" disabled>Option 3</label>
+        </div>
+        
+    </form>
+    <br>
+    <h3>Radio Buttons In-line</h3>
+    <form >
+        <div class="radio-inline">
+            <label for="radioBtn1"><input type="radio" id="radioBtn1" name="optRadio">Option 1</label>
+        </div>
+        <div class="radio-inline">
+            <label for="radioBtn2"><input type="radio" id="radioBtn2" name="optRadio">Option 2</label>
+        </div>
+        <div class="radio-inline">
+            <label for="radioBtn3"><input type="radio" id="radioBtn3" name="optRadio" disabled>Option 3</label>
+        </div>
+
+    </form>
+    <br><br>
+
+    <h3>Select</h3>
+
+    <form >
+        <div class="form-group">
+            <label for="select1">Preference(Select one)</label>
+            <select id="select1" class="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <br><br>
+            <label for="select2">Preference(Hold down <kbd>crtl</kbd> to select more than one )</label>
+            <select  id="select2" multiple class="form-control">
+
+                <option >1</option>
+                <option >2</option>
+                <option >3</option>
+                <option >4</option>
+                <option >5</option>
+
+            </select>
+        </div>
+    </form>
+
+</div>
+
+</body>
+</html>

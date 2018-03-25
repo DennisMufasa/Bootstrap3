@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabs and Pills</title>
+
+    <meta name="viewPort" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+
+
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">mufasa.com</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">ContactUs</a></li>
+        </ul>
+        <form class="navbar-form navbar-right">
+            <div class="input-group">
+            <input type="text" class="form-control" placeholder="search" name="search">
+
+            <div class="input-group-btn">
+            <button class="btn btn-default" type="submit">
+                <span class="glyphicon glyphicon-search"></span>
+            </button>
+            </div>
+        </div>
+        </form>
+    </div>
+</nav>
+
+<div class="container">
+
+    <h3>Lists horizontally ordered</h3>
+    <ul class="list-inline">
+        <li><a href="#">Evi</a></li>
+        <li><a href="#">Jante</a></li>
+        <li><a href="#">Brathe</a></li>
+    </ul>
+    <br>
+
+    <h3>Tabs</h3>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <br>
+
+    <h3>Tabs with dropdown menus</h3>
+    <ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li class="dropdown">
+            <a class="dropdown-toggle" href="#contacts" data-toggle="dropdown">Contact us
+            <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                <li>Evi-0725639874</li>
+                <li>Jante-0737896541</li>
+                <li>Brathe-0752632541</li>
+            </ul>
+        </li>
+    </ul>
+    <br>
+    <h3>Pills</h3>
+    <ul class="nav nav-pills">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <br>
+    <h3>Pills Vertically</h3>
+    <ul class="nav nav-pills nav-stacked">
+        <li><a href="#">Home</a></li>
+        <li class="active"><a href="#">About us</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+    <br>
+<h3>Pills aligned to the right</h3>
+    <div class="row">
+        <div class="col-sm-3">text</div>
+        <div class="col-sm-3">text</div>
+        <div class="col-sm-3">text</div>
+        <div class="col-sm-3">
+            <ul class="nav nav-pills nav-stacked">
+                <li><a href="#">Home</a></li>
+                <li class="active"><a href="#">Contact us</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
+    </div>
+<h3>Pills with a dropdown menu</h3>
+
+    <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Home</a></li>
+        <li class="dropdown">
+            <a href="#" data-toggle="dropdown" class="dropdown-toggle">About Us <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="#">Our vision</a></li>
+                <li><a href="#">Our mission</a></li>
+                <li><a href="#">Our Motto</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Contact us</a></li>
+
+    </ul>
+    <br>
+
+    <h3>Centered/Justified Tabs</h3>
+    <ul class="nav nav-tabs nav-justified">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li class="active"><a href="#">Contact us</a></li>
+    </ul>
+    <br>
+    <h3>Centered/Justified Pills</h3>
+    <ul class="nav nav-pills nav-justified">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li class="active"><a href="#">Contact us</a></li>
+    </ul>
+    <br>
+
+    <h3>Toggleable/Dynamic Tabs</h3>
+    <ul class="nav nav-tabs">
+
+        <li class="active"><a href="#Home" data-toggle="tab">Home</a></li>
+        <li><a href="#About" data-toggle="tab">About us</a></li>
+        <li><a href="#Contact" data-toggle="tab">Contact us</a></li>
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade in active" id="Home">
+            <h2>Home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus deserunt dignissimos iste qui
+                reprehenderit. Est expedita itaque reprehenderit. Animi asperiores consectetur dignissimos eum fugit
+                nostrum optio quidem quos sequi voluptatem.</p>
+        </div>
+        <div class="tab-pane fade" id="About">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, consequatur delectus dolorem,
+                doloremque enim, error et excepturi expedita facere fugit in officiis perspiciatis praesentium quaerat
+                quo sed sequi veritatis voluptatem?</p>
+        </div>
+        <div class="tab-pane fade" id="Contact">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus doloremque fugit modi nesciunt
+                numquam. Aliquid debitis deserunt, dolore dolorum et explicabo facere illo, nemo nihil officiis quam
+                quis vel vitae!</p>
+        </div>
+    </div>
+    <br>
+    <h3>Toggleable/Dynamic Pills</h3>
+    <ul class="nav nav-pills">
+        <li class="active"><a href="#intro" data-toggle="pill">Home</a></li>
+        <li><a href="#intro1" data-toggle="pill">About Us</a></li>
+        <li><a href="#intro2" data-toggle="pill">Contact Us</a></li>
+    </ul>
+
+    <div class="tab-content">
+
+        <div class="tab-pane fade in active" id="intro">
+            <h2>Home</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, ut,
+            vel? A, alias autem corporis deleniti dicta earum laborum laudantium. Alias dolorum eos esse est eum
+            excepturi saepe soluta voluptates?</p>
+        </div>
+        <div id="intro1" class="tab-pane fade">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur autem
+            cupiditate exercitationem iure labore, magnam minima, modi molestias officia placeat quidem quos rem
+            reprehenderit ut veniam vitae voluptas voluptatum.</p>
+        </div>
+        <div id="intro2" class="tab-pane fade">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci assumenda deserunt esse, excepturi
+                libero, molestiae nesciunt quae quaerat reiciendis sed sequi, ullam. Adipisci aliquam debitis distinctio
+                nobis possimus sunt voluptate.</p>
+        </div>
+    </div>
+
+
+</div>
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
